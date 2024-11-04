@@ -6,6 +6,7 @@ We have 2 C++ files, ProgramA.cpp and ProgramB.cpp.
 Compile and run ProgramA from one console, and in the second console compile and run ProgramB.
 Make sure to first run ProgramA and than to run ProgramB.
 (Commands for compiling C++ files, I'm using gcc version 13.1.0 compiler)
+
 g++ ProgramA.cpp -o ProgramA
 g++ ProgramB.cpp -o ProgramB
 
