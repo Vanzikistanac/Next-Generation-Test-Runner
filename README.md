@@ -12,9 +12,13 @@ g++ ProgramA.cpp -o ProgramA
 g++ ProgramB.cpp -o ProgramB
 
 ProgramA works as a controller. In ProgramA we can input one of 3 options:
+
 -Shutdown -> both processes (ProgramA and ProgramBa) will shutdown.
+
 -GetRandom -> ProgramB prints 100 random numbers (less than 1000), pass them to ProgramA which sorts, prints median and prints average value.
+
 -Hi -> ProgramB will output "Hi" to standard output
+
 
 How does this code work?
 First, what are pipes?
