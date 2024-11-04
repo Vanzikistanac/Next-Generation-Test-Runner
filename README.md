@@ -8,6 +8,7 @@ Make sure to first run ProgramA and than to run ProgramB.
 (Commands for compiling C++ files, I'm using gcc version 13.1.0 compiler)
 
 g++ ProgramA.cpp -o ProgramA
+
 g++ ProgramB.cpp -o ProgramB
 
 ProgramA works as a controller. In ProgramA we can input one of 3 options:
