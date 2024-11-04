@@ -11,7 +11,7 @@ g++ ProgramA.cpp -o ProgramA
 
 g++ ProgramB.cpp -o ProgramB
 
-#ProgramA works as a controller. In ProgramA we can input one of 3 options:
+ProgramA works as a controller. In ProgramA we can input one of 3 options:
 
 -Shutdown -> both processes (ProgramA and ProgramBa) will shutdown.
 
